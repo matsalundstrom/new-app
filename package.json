@@ -2,9 +2,9 @@
   "name": "new-app",
   "version": "1.0.0",
   "description": "Test to build a new app.",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/matsalundstrom/new-app/issues"
   },
-  "homepage": "https://github.com/matsalundstrom/new-app#readme"
+  "homepage": "https://github.com/matsalundstrom/new-app#readme",
+  "private": true,
+  "devDependencies": {
+    "lite-server": "^2.2.0"
+  }
 }
